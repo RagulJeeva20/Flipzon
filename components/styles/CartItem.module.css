@@ -1,0 +1,59 @@
+.cartItem{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #8F00FF;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-family: inherit;
+}
+.name{
+    font-weight:bold;
+}
+.itemInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actions{
+    padding: 8px;
+    margin-left: 8px;
+    width: 2.7rem;
+    color: #8F00FF;
+    border:#8F00FF 2px solid ;
+    font-weight: bolder;
+    border-radius: 6px;
+    background-color: transparent;
+    font-size: large;
+}
+.actions:hover{
+    background-color: #8F00FF;
+    color: white;
+}
+.prizeInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prize{
+    font-size: x-large;
+    font-weight: bold;
+    color: #8F00FF;
+}
+.qty{
+    border: rgb(165, 162, 162) 1px solid;
+    padding: 6px 9px;
+    border-radius: 6px;
+    /* padding-right: 12px; */
+    font-size:medium ;
+    margin-left: 1rem;
+    text-align: center;
+    /* bottom: -10rem; */
+    margin-top: -5px;
+    font-weight:normal;
+ 
+}
+.total{
+    font-weight: normal;
+    font-size: large;
+
+}

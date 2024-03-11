@@ -1,0 +1,93 @@
+.form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .div {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .inputBox{
+    width: 95%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .error{
+    border: 1px solid red;
+    background-color: rgb(252, 213, 213);
+  }
+  .errorMessage{
+    color: red;
+  }
+  .paymentType{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-left:0.6rem;
+    padding-bottom: 0;
+    
+  }
+  .type{
+    margin-left:0.5rem;
+  }
+
+  .actions{
+    
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+.checkout{
+    float: right;
+    padding:15px 20px;
+    background-color: #a42eff;
+    border-radius: 30px;
+    color: white;
+    border: 0;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 1rem;
+    width:6rem;
+    text-align: center;
+    
+
+}
+.checkout:hover{
+    background-color: #8F00FF;
+    cursor: pointer;
+    
+}
+.cancel{
+  float: right;
+  padding:15px 20px;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid #8F00FF;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 1rem;
+  width:6rem;
+  text-align: center;
+  color: #8F00FF;
+
+}
+.cancel:hover{
+  background-color: #8F00FF;
+  color: white;
+  margin: 1px solid #8F00FF;
+  cursor: pointer;
+}

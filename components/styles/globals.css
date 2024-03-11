@@ -1,0 +1,30 @@
+body{ 
+  margin: 0;
+  font-family:sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:rgb(235, 233, 233);
+}
+::-webkit-scrollbar {
+  width: 5px; 
+  background-color: rgb(216, 214, 214);
+  border-radius: 14px;
+  scrollbar-arrow-color: black;
+}
+
+.products {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.products ul{
+  width:90%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  margin-left: 7.5%;   
+}
+ 
+ 
